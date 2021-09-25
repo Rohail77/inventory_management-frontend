@@ -24,9 +24,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script
+      src="https://kit.fontawesome.com/9805a0ada7.js"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css" media="print">
+      @media print {
+        @page {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        body {
+          padding-top: 72px;
+          padding-bottom: 72px;
+        }
+      }
+    </style>
+
     <title>React App</title>
   </head>
-  <body>
+  <body class="preload">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +56,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
